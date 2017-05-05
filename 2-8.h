@@ -21,7 +21,7 @@ int main(){
 			if(num<0) answer=0;
 			}
 		}
-		for(int i=1;i<=d;i++){
+		
 			for(int j=1;j<=d;j++){
 				if(s[i][j]!=s[d+1-i][d+1-j]) answer=0;
 				}
